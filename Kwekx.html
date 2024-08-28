@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KwekaAI Chat</title>
+    <style>
+        /* Basic styling */
+        #chat-box {
+            border: 1px solid #ddd;
+            height: 300px;
+            overflow-y: scroll;
+            padding: 10px;
+        }
+        .message {
+            margin: 5px 0;
+        }
+        .user {
+            text-align: right;
+        }
+        .kwekaAI {
+            text-align: left;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Chat with KwekaAI</h1>
+    <div id="chat-box"></div>
+    <input type="text" id="message-input" placeholder="Type your message" autofocus>
+    <button id="send-button">Send</button>
+    <script src="script.js"></script>
+</body>
+</html>
